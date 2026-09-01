@@ -68,7 +68,7 @@ Step 3 → Website server responds with the page's HTML content
          ↓  
 Step 4 → BeautifulSoup parses the raw HTML structure  
          ↓  
-Step 5 → Script searches for specific HTML tags/classes (e.g., <h2>, <div class="price">)  
+Step 5 → Script searches for specific HTML tags/classes  
          ↓  
 Step 6 → Targeted text or links are extracted and cleaned  
          ↓  
