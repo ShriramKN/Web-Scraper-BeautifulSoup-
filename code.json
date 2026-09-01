@@ -1,0 +1,24 @@
+[
+    {
+        "url": "https://quotes.toscrape.com/",
+        "scraped_at": "2026-09-02 00:25:16",
+        "metadata": {
+            "title": "Quotes to Scrape",
+            "description": "",
+            "keywords": ""
+        },
+        "links_found": 55,
+        "tables_found": []
+    },
+    {
+        "url": "https://books.toscrape.com/",
+        "scraped_at": "2026-09-02 00:25:16",
+        "metadata": {
+            "title": "All products | Books to Scrape - Sandbox",
+            "description": "",
+            "keywords": ""
+        },
+        "links_found": 94,
+        "tables_found": []
+    }
+]
