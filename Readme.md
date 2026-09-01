@@ -1,6 +1,6 @@
 # 📁 Password Manager (Encryption)
 **CodTech IT Solutions — Python Programming Internship**  
-Task name : Password Manager (Encryption)   
+Task name : Web Scraper (BeautifulSoup)   
 Intern : SHRIRAM K N  
 Intern ID  : CITS8258  
 Domain : Python Programming  
@@ -9,72 +9,72 @@ Internship Period : 22 June 2026 - 20 July 2026
 
 ## 📌 Project Overview🖥️ GUI Interface
 
-The **Password Manager (Encryption)**, this project focuses on securely storing user credentials by encrypting sensitive data before saving it to a local file. It aims to prevent unauthorized access to personal accounts by ensuring that even if the storage file is intercepted, the passwords remain encrypted and unreadable without the Master Password.
+The **Web Scraper (BeautifulSoup)**, this project automates the collection of web data by parsing HTML tags and attributes. It aims to efficiently gather targeted public information from a website and organize it into a readable, local file, demonstrating the practical applications of data mining and web automation.
 
 ## ✨ Features
 | Feature | Description |
 |---------|-------------|
-| 🔒 Strong Encryption | Secures stored passwords using robust encryption (e.g., AES/Fernet) so data is unreadable at rest. |
-| 🔑 Master Password | Protects your entire password vault with a single, secure master key. |
-| ➕ Add Credentials | Easily save website, email/username, and password combinations. |
-| 👁️ Retrieve & Search | Instantly search for saved websites to decrypt and view or copy your passwords. |
-| 🛡️ Local Storage | Data is saved locally on your machine, ensuring you have full control over your vault. |
-| 🖥️ GUI Interface | A user-friendly graphical interface built with Tkinter for seamless interaction. |
+| 🎯 Data Extraction | Precisely pulls targeted information (e.g., text, links, titles, prices) from web pages. |
+| 🔍 HTML Parsing | Utilizes BeautifulSoup to easily navigate and search through complex HTML structures. |
+| 💾 Data Export | Automatically saves the extracted data into a structured .csv or .txt file for easy analysis. |
+| ⚡ Automation | Scrapes multiple elements or pages rapidly, saving hours of manual data entry. |
+| 🛡️ Error Handling | Gracefully handles missing HTML tags or connection timeouts without crashing. |
 
 
 ## 🛠️ Technologies Used
 
 - **Language** : Python 3.x
-- **Core Libraries** :  cryptography (or base64 / hashlib) - For encrypting and decrypting data
+- **Libraries** : requests — To send HTTP requests and fetch web page content.
+-  bs4 (BeautifulSoup) — To parse and navigate the HTML/XML documents.
+-  csv — (Built-in) To export the scraped data into a spreadsheet-friendly format.
 ```
 
 ```
 ##  Project Scope
-This project focuses on securely storing user credentials by encrypting sensitive data before saving it to a local file. It aims to prevent unauthorized access to personal accounts by ensuring that even if the storage file is intercepted, the passwords remain encrypted and unreadable without the Master Password.
+This project automates the collection of web data by parsing HTML tags and attributes. It aims to efficiently gather targeted public information from a website and organize it into a readable, local file, demonstrating the practical applications of data mining and web automation.
 ```
 
 ```
 ##  Technologies Used
 1.Python  
-2.OS Module  
-3.cryptography Module  
+2.OS Module 
 ```
 
 ```
 ##  Features
-1.Keeps stored passwords secure and unreadable. 
-2.One key unlocks your entire vault. 
-3.Quickly add, search, and retrieve logins.
-4.Data stays completely private on your own device.
-5.Easy-to-use graphical design (GUI).
+1.Quickly pulls specific text, links, or prices from websites.
+2.Navigates complex web page structures effortlessly using BeautifulSoup. 
+3.Saves the gathered data directly into organized CSV files.
+4.Automates repetitive manual data collection across multiple pages.
+5.Handles missing data and connection errors smoothly without crashing.
 ```
 
 ```
 ## Project Structure
-password-manager/  
+web-scraper/  
 │  
-├── main.py               ← Main Python script (GUI and encryption logic)  
-├── data.json             ← Local storage file for encrypted data (Auto-generated)  
-└── README.md             ← Project documentation 
+├── scraper.py            ← Main Python scraping script  
+├── scraped_data.csv      ← Auto-generated output file containing the data  
+└── README.md             ← Project documentation
 ```
 
 ```
 ## How It Works (Step-by-Step)
-Step 1 → User launches the app and sets/enters the Master Password  
+Step 1 → Script takes the target website URL  
          ↓  
-Step 2 → Script authenticates the Master Password  
+Step 2 → Sends an HTTP GET request using the `requests` library  
          ↓  
-Step 3 → User inputs new account details (Website, Username, Password)  
+Step 3 → Website server responds with the page's HTML content  
          ↓  
-Step 4 → Script encrypts the password using a cryptographic key  
+Step 4 → BeautifulSoup parses the raw HTML structure  
          ↓  
-Step 5 → Encrypted data is saved securely into a local file (e.g., JSON or TXT)  
+Step 5 → Script searches for specific HTML tags/classes (e.g., <h2>, <div class="price">)  
          ↓  
-Step 6 → When searching, the user enters the website name  
+Step 6 → Targeted text or links are extracted and cleaned  
          ↓  
-Step 7 → Script locates the entry, decrypts the password using the Master Key, and displays it
+Step 7 → Data is written and saved to a local file (e.g., scraped_data.csv)
 ```
 
 ```
 ## Conclusion
-This Password Manager efficiently secures digital identities, reducing the risk of compromised accounts and eliminating the need to memorize multiple complex passwords. The project demonstrates proficiency in Python programming, applied cryptography, secure file handling, and GUI development using Tkinter.
+This Web Scraper efficiently collects and organizes data from websites, significantly reducing manual effort and improving data collection pipelines. The project demonstrates strong skills in Python automation, working with HTTP requests, HTML parsing, and structured data extraction.
