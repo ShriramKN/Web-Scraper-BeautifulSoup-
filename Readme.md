@@ -7,7 +7,7 @@ Domain : Python Programming
 Duration : 4 Weeks  
 Internship Period : 22 June 2026 - 20 July 2026
 
-## 📌 Project Overview🖥️ GUI Interface
+## 📌 Project Overview
 
 The **Web Scraper (BeautifulSoup)**, this project automates the collection of web data by parsing HTML tags and attributes. It aims to efficiently gather targeted public information from a website and organize it into a readable, local file, demonstrating the practical applications of data mining and web automation.
 
