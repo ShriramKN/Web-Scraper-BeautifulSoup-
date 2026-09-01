@@ -1,4 +1,4 @@
-# 📁 Password Manager (Encryption)
+# 📁 Web Scraper (BeautifulSoup)
 **CodTech IT Solutions — Python Programming Internship**  
 Task name : Web Scraper (BeautifulSoup)   
 Intern : SHRIRAM K N  
